@@ -7,44 +7,44 @@
     tools:context=".MainActivity"
    >
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/left_margin_guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.40"/>
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/left_margin_guideline"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_percent="0.40"/>-->
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/right_margin_guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.60"/>
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/right_margin_guideline"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintGuide_percent="0.60"/>-->
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/top_margin_guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.40"/>
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/top_margin_guideline"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintGuide_percent="0.40"/>-->
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/bottom_margin_guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.60"/>
+<!--    <androidx.constraintlayout.widget.Guideline-->
+<!--        android:id="@+id/bottom_margin_guideline"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintGuide_percent="0.60"/>-->
 
-    <View
-        android:id="@+id/view_touch"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#000"
-        app:layout_constraintTop_toTopOf="@+id/top_margin_guideline"
-        app:layout_constraintStart_toStartOf="@+id/left_margin_guideline"
-        app:layout_constraintEnd_toEndOf="@+id/right_margin_guideline"
-        app:layout_constraintBottom_toBottomOf="@+id/bottom_margin_guideline"
-        />
+<!--    <View-->
+<!--        android:id="@+id/viewTouch"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:background="#000"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/top_margin_guideline"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/left_margin_guideline"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/right_margin_guideline"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/bottom_margin_guideline"-->
+<!--        />-->
 
 
 
@@ -77,5 +77,4 @@
 
     </ImageButton>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
